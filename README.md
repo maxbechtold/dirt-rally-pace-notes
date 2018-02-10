@@ -35,7 +35,7 @@ In corners, calls are made to ``keepin`` or even ``cut`` the corner. ``dontcut``
 ``deceptive`` warns the driver not to succumb to a wrong way
 
 ### Note succession
-``/`` (over/for) connects different characteristics that occur simultaneously.  
+``/`` (over/for/through) connects different characteristics that occur simultaneously.  
 Quick successions of stage characteristics are denoted as either ``:`` (immediate) or ``->`` (into).  
 Otherwise, a number is used representing distance in meters: ``60, 80, 100, 130, 150, 200``
 
