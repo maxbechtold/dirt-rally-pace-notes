@@ -19,12 +19,16 @@ They can tighten to a higher severity, ``>``, or open to a lesser one, ``<``.
 ### Road geometry
 The road can be ``open`` or ``tight``, form ``dent``s or ``cr``ests.  
 The latter are often followed by a ``jmp`` (jump), which might only happen at certain speeds: ``jmp?``.  
-Bad ``camber`` means a section or corners should be passed with care and perhaps less speed.  
+Bad ``camber`` means a section or corner should be passed with care and perhaps less speed.  
 ``bmp`` denotes bumpy sections
 
 ### Road boundaries
-``gate``, ``post``, ``tunnel``  
-``rock``, ``log`` 
+``gate``s, ``post``s, ``tunnel``s require the driver to stay off the edge of the road.   
+``rock``s, ``log``s can be placed on the inside or outside of a corner: ``-in, -out``. This is often combined with a placement call.
+
+### Car placement
+Drivers can be advised to stay in the middle of the road or left or right of the middle: ``keepm, keepl, keepr``.  
+In corners, calls are made to ``keepin`` or even ``cut`` the corner. ``dontcut`` means to stay clear of the inside. 
 
 ### Orientation
 ``Junc``(tion) and ``turn`` denote segments where the driver must take care not to take the wrong way.  
@@ -35,7 +39,9 @@ Bad ``camber`` means a section or corners should be passed with care and perhaps
 Quick successions of stage characteristics are denoted as either ``:`` (immediate) or ``->`` (into).  
 Otherwise, a number is used representing distance in meters: ``60, 80, 100, 130, 150, 200``
 
-
+### Driver attention
+Caution is advised by ``!``.  
+``finish`` ends the stage and pace notes.
 
 
 
