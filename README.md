@@ -12,15 +12,19 @@ You should read this [blog entry](http://blog.codemasters.com/dirt/04/co-driver-
 There doesn't seem to be an official notation, but [this one](http://www.automobilemag.com/news/a-beginners-guide-to-rally-pace-notes/) looks thorough to me and can be used to understand the following (simplified) notation.
 
 ### Corners
-In ascending severity: ``x6, x5, x4, x3, x2, x1, squarex, hpx, acutex`` where ``x`` is either ``l`` or ``r``.
+In ascending severity: ``x6, x5, x4, x3, x2, x1, squarex, hpx, acutex`` where ``x`` is either ``l`` or ``r``.  
 Corners can be ``long`` or ``hlong`` (half long).  
-They can tighten to higher severity, ``>``, or open to a lesser one, ``<``.
+They can tighten to a higher severity, ``>``, or open to a lesser one, ``<``.
 
 ### Road geometry
 The road can be ``open`` or ``tight``, form ``dent``s or ``cr``ests.  
 The latter are often followed by a ``jmp`` (jump), which might only happen at certain speeds: ``jmp?``.  
 Bad ``camber`` means a section or corners should be passed with care and perhaps less speed.  
 ``bmp`` denotes bumpy sections
+
+### Road boundaries
+``gate``, ``post``, ``tunnel``  
+``rock``, ``log`` 
 
 ### Orientation
 ``Junc``(tion) and ``turn`` denote segments where the driver must take care not to take the wrong way.  
