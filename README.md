@@ -17,22 +17,26 @@ Corners can be ``long`` or ``hlong`` (half long).
 They can tighten to a higher severity, ``>``, or open to a lesser one, ``<``.
 
 ### Road geometry
-The road can be ``open`` or ``tight``, form ``dent``s or ``cr``ests.  
+The road can be ``open`` or ``tight``, form ``dent``s or (``long``) ``cr``ests.  
 The latter are often followed by a ``jmp`` (jump), which might only happen at certain speeds: ``jmp?``.  
 Bad ``camber`` means a section or corner should be passed with care and perhaps less speed.  
-``bmp`` denotes bumpy sections
+``bmp`` denotes bumpy sections.  
 
 ### Road boundaries
 ``gate``s, ``post``s, ``tunnel``s require the driver to stay off the edge of the road.   
 ``rock``s, ``log``s can be placed on the inside or outside of a corner: ``-in, -out``. This is often combined with a placement call.
 
+### Change in road characteristics
+The next section can go ``[up]`` or ``[down]``.  
+It can be covered by ``[ice]``.
+
 ### Car placement
 Drivers can be advised to stay in the middle of the road or left or right of the middle: ``keepm, keepl, keepr``.  
-In corners, calls are made to ``keepin`` or even ``cut`` the corner. ``dontcut`` means to stay clear of the inside. 
+In corners, calls are made to ``keepin`` or even ``cut`` the corner.  
+``dontcut`` means to stay clear of the inside.  
 
 ### Orientation
 ``Junc``(tion) and ``turn`` denote segments where the driver must take care not to take the wrong way.  
-``deceptive`` warns the driver not to succumb to a wrong way
 
 ### Note succession
 ``/`` (over/for/through) connects different characteristics that occur simultaneously.  
@@ -41,7 +45,9 @@ Otherwise, a number is used representing distance in meters: ``60, 80, 100, 130,
 
 ### Driver attention
 Caution is advised by ``!``.  
-``finish`` ends the stage and pace notes.
+This can be combined with advice of ``slowing`` or ``braking``.  
+``deceptive`` warns the driver, e.g. not to succumb to a wrong way.  
+``finish`` ends the stage and pace notes.  
 
 
 
