@@ -39,7 +39,7 @@ In corners, calls are made to ``keepin`` or even ``cut`` the corner.
 ``Junc``(tion) and ``turn`` denote segments where the driver must take care not to take the wrong way.  
 
 ### Note succession
-``/`` (over/for/through) connects different characteristics that occur simultaneously.  
+``/`` (over, past, for, through) connects different characteristics that occur simultaneously.  
 Quick successions of stage characteristics are denoted as either ``:`` (immediate) or ``->`` (into).  
 Otherwise, a number is used representing distance in meters: ``60, 80, 100, 130, 150, 200``
 
