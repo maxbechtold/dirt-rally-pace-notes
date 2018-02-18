@@ -12,7 +12,7 @@ You should read this [blog entry](http://blog.codemasters.com/dirt/04/co-driver-
 There doesn't seem to be an official notation, but [this one](http://www.automobilemag.com/news/a-beginners-guide-to-rally-pace-notes/) looks thorough to me and can be used to understand the following (simplified) notation.
 
 ### Corners
-In ascending severity: ``x6, x5, x4, x3, x2, x1, squarex, hpx, acutex`` where ``x`` is either ``l`` or ``r``.  
+In ascending severity: ``x6, x5, x4, x3, x2, x1, SQx, HPx, ACx`` where ``x`` is either ``l`` or ``r``.  
 Corners can be ``long`` or ``hlong`` (half long).  
 They can tighten to a higher severity, ``>``, or open to a lesser one, ``<``.
 
@@ -27,7 +27,7 @@ Bad ``camber`` means a section or corner should be passed with care and perhaps 
 ``rock``s, ``log``s, ``ditch``es, ``bank``s can be placed on the inside, outside, or exit of a corner: ``-in, -out, -exit``. This is often combined with a placement call.
 
 ### Change in road characteristics
-The next section can go ``[up]`` or ``[down]``.  
+The next section can go ``[up]`` or ``[down]``, it ``[opens]`` and ``[narrows]``.  
 It can be covered by ``[ice]``.
 
 ### Car placement
