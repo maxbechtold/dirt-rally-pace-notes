@@ -24,7 +24,7 @@ Bad ``camber`` means a section or corner should be passed with care and perhaps 
 
 ### Road boundaries
 ``gate``s, ``post``s, ``tunnel``s require the driver to stay off the edge of the road.   
-``rock``s, ``log``s can be placed on the inside or outside of a corner: ``-in, -out``. This is often combined with a placement call.
+``rock``s, ``log``s, ``ditch``es, ``bank``s can be placed on the inside, outside, or exit of a corner: ``-in, -out, -exit``. This is often combined with a placement call.
 
 ### Change in road characteristics
 The next section can go ``[up]`` or ``[down]``.  
