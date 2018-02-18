@@ -22,13 +22,13 @@ r5 keepin r6/80 r5/cr r6/cr -> l3 long
 
 r4 dontcut -> !r4 long logs dontcut 60
 
-r5/jmp? r6 l1 long -> turn hpr 200/junction 
+r5/jmp? r6 l1 long -> turn HPr 200/junc 
 
 !keepr cr posts l6/posts jmp 60 cr r3
 
 l6 60/cr l4 -> r1 dontcut !r6 cr jmp? l4 long/cr 80
 
-cr l4/80 keepin cr r2/80>1 opens posts
+cr l4/80 keepin cr r2/80>1 [opens] posts
 
 r6 posts cr keepr cr ->l6 jmp? jmp keepr jmp 100 
 
@@ -42,7 +42,7 @@ r6/dent keepr cr 150 keepr cr !l3 long posts gate 80
 
 gate l4 keepin -> r5 hlong 80/dent gate
 
-r6 100/big cr jmp? hpl 100
+r6 100/big cr jmp? HPl 100
 
 r5 -> r5 long dontcut logs-in
 
