@@ -1,12 +1,12 @@
 r6/cr ! braking turn ACl dontcut turn l4 250/dent 
 
-turn HPr dontcut opens + turn r3 dontcut -> l6 long + turn r4 -> turn l4 80 cr 80 
+turn HPr dontcut [opens] + turn r3 dontcut -> l6 long + turn r4 -> turn l4 80 cr 80 
 
 r6 80 ! jmp/junc 100/junc
 
 ! braking turn ACr 100 turn HPl dontcut 150/dent
 
-turn r1 -> turn r1 ditch-out narrows 100/dent/junc 100/cr 100
+turn r1 -> turn r1 ditch-out [narrows] 100/dent/junc 100/cr 100
 
 ! keepl r5:SQr dontcut 80 turn HPl 80 turn HPl dontcut 80 
 
