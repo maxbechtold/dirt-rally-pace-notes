@@ -40,8 +40,8 @@ In corners, calls are made to ``keepin`` or even ``cut`` the corner.
 
 ### Note succession
 ``/`` (over, past, for, through) connects different characteristics that occur simultaneously.  
-Quick successions of stage characteristics are denoted as either ``:`` (immediate) or ``->`` (into).  
-Otherwise, a number is used representing distance in meters: ``60, 80, 100, 130, 150, 200``
+Quick successions of stage characteristics are indicated by simple enumerations in a single line.  
+Otherwise, a number is used representing distance between characteristics in meters: ``60, 80, 100, 130, 150, 200, 300, 400``
 
 ### Driver attention
 Caution is advised by ``!``.  
