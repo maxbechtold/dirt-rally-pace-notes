@@ -36,7 +36,7 @@ In corners, calls are made to ``keepin`` or even ``cut`` the corner.
 ``dontcut`` means to stay clear of the inside.  
 
 ### Orientation
-``Junc``(tion) and ``turn`` denote segments where the driver must take care not to take the wrong way.  
+``Junc``tion, ``turn``, and ``cross``roads denote segments where the driver must take care not to take the wrong way.  
 
 ### Note succession
 ``/`` (over, past, for, through) connects different characteristics that occur simultaneously.  
@@ -46,7 +46,7 @@ Otherwise, a number is used representing distance between characteristics in met
 ### Driver attention
 Caution is advised by ``!``.  
 This can be combined with advice of ``slowing`` or ``braking``.  
-``deceptive`` warns the driver, e.g. not to succumb to a wrong way.  
+``deceptive`` warns the driver, e.g. not to succumb to a wrong way. 
 ``finish`` ends the stage and pace notes.  
 
 
