@@ -18,7 +18,7 @@ l4>3/cr dontcut 60 r4/cr [opens] [narrows] 40 l5 hlong dontcut/junc 80
 
 keepm cr jmp 80/junc 
 
-l5 long [opens]/cr/junc 40 l5/cr jmp dontcut cr jmp keepm cr jmp 80/junc
+l5 long [opens]/cr/junc 40 l5/cr jmp dontcut cr jmp keepm cr jmp 180/junc
 
 !r5/junc>4 keepin r6/cr jmp 100
 
