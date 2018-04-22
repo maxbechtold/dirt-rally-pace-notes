@@ -1,4 +1,4 @@
-l6/100/junc 100/bridge 2x small cr 60/junc r6>4/cr dontcut 80
+l6/100/junc 100/bridge small cr small cr 60/junc r6>4/cr dontcut 80
 
 cr bmp l6 60 !l3/cr dontcut cr jmp? !r6>4/cr jmp [opens]/100/bmp
 
@@ -26,7 +26,7 @@ bmp !r4/jmp 100 l4 long 60
 
 keepl cr r5 long 40 keepm cr jmp 60/junc cr jmp? 80
 
-l6/cr jmp? 60/junc !l6/cr down l3 hlong keepin 60 r5/cr 80
+l6/cr jmp? 60/junc !l6/cr [down] l3 hlong keepin 60 r5/cr 80
 
 r4/cr [opens]/bmp 60 l6 keepm cr jmp l5 r4 long keepm cr l4/cr 80
 
