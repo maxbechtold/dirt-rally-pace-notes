@@ -19,11 +19,12 @@ They can tighten to a higher severity, ``>``, or open to a lesser one, ``<``.
 ### Road geometry
 The road can be ``open`` or ``tight``, form ``dent``s or (``long``) ``cr``ests.  
 The latter are often followed by a ``jmp`` (jump), which might only happen at certain speeds: ``jmp?``.  
+Crests/jumps can be particularly ``small`` or ``big``.  
 Bad ``camber`` means a section or corner should be passed with care and perhaps less speed.  
 ``bmp`` denotes bumpy sections.  
 
 ### Road boundaries
-``gate``s, ``post``s, ``tunnel``s require the driver to stay off the edge of the road.   
+``gate``s, ``post``s, ``tunnel``s, ``bridge``s require the driver to stay off the edge of the road.   
 ``rock``s, ``log``s, ``ditch``es, ``bank``s can be placed on the inside, outside, or exit of a corner: ``-in, -out, -exit``. This is often combined with a placement call.
 
 ### Change in road characteristics
@@ -33,7 +34,8 @@ It can be covered by ``[ice]``.
 ### Car placement
 Drivers can be advised to stay in the middle of the road or left or right of the middle: ``keepm, keepl, keepr``.  
 In corners, calls are made to ``keepin`` or even ``cut`` the corner.  
-``dontcut`` means to stay clear of the inside.  
+``dontcut`` means to stay clear of the inside, ``keepout`` advises an outside line through a corner.  
+``line`` means taking a sequence of one or more corners straight. 
 
 ### Orientation
 ``Junc``tion, ``turn``, and ``cross``roads denote segments where the driver must take care not to take the wrong way.  
