@@ -20,7 +20,7 @@ keepm cr jmp 80/junc
 
 l5 long [opens]/cr/junc 40 l5/cr jmp dontcut cr jmp keepm cr jmp 180/junc
 
-!r5/junc>4 keepin r6/cr jmp 100
+!r5/junc>4 !keepin r6/cr jmp 100
 
 bmp !r4/jmp 100 l4 long 60 
 
@@ -35,3 +35,5 @@ r4 long/cr dontcut 40 l6>4/cr 60 r6>3 tight 150
 l4 hlong/junc 40 r5>4 cr l5/cr 40/junc cr l5 hlong 
 
 finish
+
+https://www.youtube.com/watch?v=JqXD-Bn5Hd8
