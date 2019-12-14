@@ -1,8 +1,10 @@
 60 bump 4r 30 
 1r-long<4r 3l-dontcut keepR 30 open-HPl 
-50 slow 4r/cr long > 2 2l-opens 30 6l/cr 50
+50 slow 4r/cr-long>2 2l-opens 30 6l/cr 50
 ?2r 3l-dontcut ?2r-smallcut 2l-long-tightens 2r-long-opens-tightens HPr-tightens
 1l-tightens-opens-long turn-1r-dontcut 
 2l-long-tightens-opens 2l-long>1 1r-long>HPr 30 1l-long 6l !?HPr opens
 4r-long/cr/bump ! 30 1r HPl 6r keepL/50 
-4r-[narrow] 30 3l/bump 2r 20 1r-long-tightens 5l 4r-long/cr HPl 4r-long/cr 2l-long-tightens/cr/finish 30 jumps !4l 4r stop.
+4r-[narrow] 30 3l/bump 2r 
+20 1r-long-tightens 5l 4r-long/cr HPl 4r-long/cr 2l-long-tightens/cr/finish 
+30 jumps !4l 4r stop.
