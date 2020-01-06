@@ -2,6 +2,9 @@
 
 This collects transcriptions of DiRT Rally pace notes, contributions welcome. These notes enable co-op playing where one player drives the car and the other acts as co-driver reading the notes.
 
+Now that DiRT Rally 2.0 has long since been released, I'll try and update the system and pace notes.
+> This is how the differences in DR2 are given.
+
 My goal is to provide the game's pace notes as accurately as possible (given the manual process of writing the notes from replays) in a concise notation that people can read quickly and adapt to their needs or translate. 
 
 ## Understanding pace notes
@@ -13,8 +16,13 @@ There doesn't seem to be an official notation, but [this one](http://www.automob
 
 ### Corners
 In ascending severity: ``x6, x5, x4, x3, x2, x1, SQx, HPx, ACx`` where ``x`` is either ``l`` or ``r``.  
+> In DR2 the numbers shifted, e.g. l5 would now be 6l: `flat, 6x, 5x, 4x, 3x, 2x, 1x, sqX, open-hpX, hpX`. To cover the same spectrum, a previous 6 is now called flat, and acute corners become hairpins.
+
 Corners can be ``long`` or ``hlong`` (half long).  
-They can tighten to a higher severity, ``>``, or open to a lesser one, ``<``.
+> DR2 corners can be `short`, `long`, `verylong`, `extralong`, or `extraextralong`.
+
+They can tighten to a higher severity, ``>``, or open to a lesser one, ``<``. 
+> In DR2 it is also called if the road `opens` or `tightens` through a corner.
 
 ### Road geometry
 The road can be ``open`` or ``tight``, form ``dent``s or (``long``) ``cr``ests.  
