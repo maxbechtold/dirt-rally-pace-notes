@@ -19,10 +19,11 @@ In ascending severity: ``x6, x5, x4, x3, x2, x1, SQx, HPx, ACx`` where ``x`` is 
 > In DR2 the numbers shifted, e.g. l5 would now be 6l: `flat, 6x, 5x, 4x, 3x, 2x, 1x, sqX, open-hpX, hpX`. To cover the same spectrum, a previous 6 is now called flat, and acute corners become hairpins.
 
 Corners can be ``long`` or ``hlong`` (half long).  
-> DR2 corners can be `short`, `long`, `verylong`, `extralong`, or `extraextralong`.
+> DR2 corners can be `short`, `long`, `verylong`, `extralong`, or `extraextralong`. Many are `unseen`, some `sudden`.
 
 They can tighten to a higher severity, ``>``, or open to a lesser one, ``<``. 
-> In DR2 it is also called if the road `opens` or `tightens` through a corner.
+> In DR2 it is also called if the road `opens` or `tightens` through a corner.  
+> DR2 has corners where an `early` or `late` turn-in/apex is advised.
 
 ### Road geometry
 The road can be ``open`` or ``tight``, form ``dent``s or (``long``) ``cr``ests.  
