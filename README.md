@@ -59,6 +59,6 @@ Caution is advised by ``!``.
 This can be combined with advice of ``slowing`` or ``braking``.  
 ``deceptive`` warns the driver, e.g. not to succumb to a wrong way.  
 ``finish`` ends the stage and pace notes.  
-
+> In DR2, the pace notes continue until the driver is to `stop`.
 
 
