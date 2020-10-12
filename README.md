@@ -18,7 +18,7 @@ There doesn't seem to be an official notation, but [this one](http://www.automob
 In ascending severity: ``x6, x5, x4, x3, x2, x1, SQx, HPx, ACx`` where ``x`` is either ``l`` or ``r``.  
 > In DR2 the numbers shifted, e.g. l5 would now be 6l: `flat, 6x, 5x, 4x, 3x, 2x, 1x, sqX, open-hpX, hpX`. To cover the same spectrum, a previous 6 is now called flat, and acute corners become hairpins.
 
-Corners can be ``long`` or ``hlong`` (half long).  
+Corners can be ``long`` or ``hlong`` (half long), some are `immediate`.  
 > DR2 corners can be `short`, `long`, `verylong`, `extralong`, or `extraextralong`. Many are `unseen`, some `sudden`.
 
 They can tighten to a higher severity, ``>``, or open to a lesser one, ``<``. 
@@ -27,18 +27,23 @@ They can tighten to a higher severity, ``>``, or open to a lesser one, ``<``.
 
 ### Road geometry
 The road can be ``open`` or ``tight``, form ``dent``s or (``long``) ``cr``ests.  
+> DR2 calls out `dip`s instead of dents.  
+
 The latter are often followed by a ``jmp`` (jump), which might only happen at certain speeds: ``jmp?``.  
 Crests/jumps can be particularly ``small`` or ``big``.  
-Bad ``camber`` means a section or corner should be passed with care and perhaps less speed.  
+Bad ``camber`` means a section or corner that requires a certain line and perhaps less speed.  
 ``bmp`` denotes bumpy sections.  
 
 ### Road boundaries
 ``gate``s, ``post``s, ``tunnel``s, ``bridge``s require the driver to stay off the edge of the road.   
-``rock``s, ``log``s, ``ditch``es, ``bank``s can be placed on the inside, outside, or exit of a corner: ``-in, -out, -exit``. This is often combined with a placement call.
+``rock``s, ``log``s, ``ditch``es, ``bank``s can be placed on the inside, outside, or exit of a corner: ``-in, -out, -exit``. This is often combined with a placement call.  
+(Tight) `chicane`s ask for a specific speed and car placement, depending on a `-left` or `-right` entry.  
+> In DR2, `bale`s are used to artificially tighten a corner.
 
 ### Change in road characteristics
 The next section can go ``[up]`` or ``[down]``, it ``[opens]`` and ``[narrows]``.  
 It can be covered by ``[ice]``.
+TODO Ice/Snow starts/clears. Sweden? Gravel, tarmac, cobble
 
 ### Car placement
 Drivers can be advised to stay in the middle of the road or left or right of the middle: ``keepm, keepl, keepr``.  
