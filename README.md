@@ -1,18 +1,20 @@
 # dirt-rally-pace-notes
 
-This collects transcriptions of DiRT Rally pace notes, contributions welcome. These notes enable co-op playing where one player drives the car and the other acts as co-driver reading the notes.
+This repository collects transcriptions of DiRT Rally [2.0] pace notes, contributions welcome - see below.  
 
-Now that DiRT Rally 2.0 has long since been released, I'll try and update the system and pace notes.
+The pace note *system* can help rally beginners to better understand the co-driver calls. The pace note *transcriptions* enable co-op playing where one player drives the car and the other acts as the co-driver reading the notes: https://www.youtube.com/watch?v=BRZHE8-c-_c 
+
+This project started after the release of the original DiRT Rally. It has been updated for DiRT Rally 2.0 (DR2). 
 > This is how the differences in DR2 are given.
 
-My goal is to provide the game's pace notes as accurately as possible (given the manual process of writing the notes from replays) in a concise notation that people can read quickly and adapt to their needs or translate. 
+The goal is to provide the game's pace notes as accurately as possible in a concise notation that people can read quickly and adapt to their needs or translate. In order to read the pace notes you should first take a look at the notation system below. 
 
 ## Understanding pace notes
-You should read this [blog entry](http://blog.codemasters.com/dirt/04/co-driver-calls-explained/) by the guy that reads the pace notes in the game.
+You should read this [blog entry](http://blog.codemasters.com/dirt/04/co-driver-calls-explained/) by the guy that reads the pace notes for the original DiRT Rally.
 
 ## System
 
-There doesn't seem to be an official notation, but [this one](http://www.automobilemag.com/news/a-beginners-guide-to-rally-pace-notes/) looks thorough to me and can be used to understand the following (simplified) notation.
+There doesn't seem to be an official notation, so [this one](http://www.automobilemag.com/news/a-beginners-guide-to-rally-pace-notes/) mostly inspired the following (simplified) notation.
 
 ### Corners
 In ascending severity: ``x6, x5, x4, x3, x2, x1, SQx, HPx, ACx`` where ``x`` is either ``l`` or ``r``.  
@@ -58,6 +60,4 @@ Caution is advised by ``!``.
 This can be combined with advice of ``slowing`` or ``braking``.  
 ``deceptive`` warns the driver, e.g. not to succumb to a wrong way.  
 ``finish`` ends the stage and pace notes.  
-
-
 
