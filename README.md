@@ -11,7 +11,6 @@ My goal is to provide the game's pace notes as accurately as possible (given the
 You should read this [blog entry](http://blog.codemasters.com/dirt/04/co-driver-calls-explained/) by the guy that reads the pace notes in the game.
 
 ## System
-
 There doesn't seem to be an official notation, but [this one](http://www.automobilemag.com/news/a-beginners-guide-to-rally-pace-notes/) looks thorough to me and can be used to understand the following (simplified) notation.
 
 ### Corners
@@ -22,7 +21,7 @@ Corners can be ``long`` or ``hlong`` (half long), some are `immediate`.
 > DR2 corners can be `short`, `long`, `verylong`, `extralong`, or `extraextralong`. Many are `unseen`, some `sudden`.
 
 They can tighten to a higher severity, ``>``, or open to a lesser one, ``<``. 
-> In DR2 it is also called if the road `opens` or `tightens` through a corner.  
+> In DR2 it is also called if the road `opens` or `tightens` through a corner, or `continues` past a given way point.    
 > DR2 has corners where an `early` or `late` turn-in/apex is advised.
 
 ### Road geometry
@@ -38,12 +37,14 @@ Bad ``camber`` means a section or corner that requires a certain line and perhap
 ``gate``s, ``post``s, ``tunnel``s, ``bridge``s require the driver to stay off the edge of the road.   
 ``rock``s, ``log``s, ``ditch``es, ``bank``s can be placed on the inside, outside, or exit of a corner: ``-in, -out, -exit``. This is often combined with a placement call.  
 (Tight) `chicane`s ask for a specific speed and car placement, depending on a `-left` or `-right` entry.  
-> In DR2, `bale`s are used to artificially tighten a corner.
+`layby`s can offer more space to one side of the road, but might also mean less space due to parked cars.   
+`bale`s are used to artificially tighten a corner.
 
 ### Change in road characteristics
-The next section can go ``[up]`` or ``[down]``, it ``[opens]`` and ``[narrows]``.  
-It can be covered by ``[ice]``.
-TODO Ice/Snow starts/clears. Sweden? Gravel, tarmac, cobble
+The next section can go ``[up]`` or ``[down]``(hill), it ``[opens]`` and ``[narrows]``.  
+A `[water]` splash might require to switch on the windscreen wipers.  
+The road can be covered by ``[ice]`` patches. For longer sections, calls are made when `[ice]-starts` or `-clears`.  
+> DR2 introduces `[snow]`. It also calls out the transition to `[gravel]`, `[tarmac]`, and `[cobble]`.  
 
 ### Car placement
 Drivers can be advised to stay in the middle of the road or left or right of the middle: ``keepm, keepl, keepr``.  
