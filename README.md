@@ -1,10 +1,10 @@
 # dirt-rally-pace-notes
 
-This repository collects transcriptions of DiRT Rally [2.0] pace notes, contributions welcome - see below.  
+This repository collects transcriptions of DiRT Rally [2.0] pace notes, contributions welcome - [see below](#contribute).  
 
 The pace note *system* can help rally beginners to better understand the co-driver calls. The pace note *transcriptions* enable co-op playing where one player drives the car and the other acts as the co-driver reading the notes: https://www.youtube.com/watch?v=BRZHE8-c-_c 
 
-This project started after the release of the original DiRT Rally. It has been updated for DiRT Rally 2.0 (DR2). 
+This project started after the release of the original DiRT Rally. It has been updated for DiRT Rally 2.0. 
 > This is how the differences in DR2 are given.
 
 The goal is to provide the game's pace notes as accurately as possible in a concise notation that people can read quickly and adapt to their needs or translate. In order to read the pace notes you should first take a look at the notation system below. 
@@ -61,3 +61,15 @@ This can be combined with advice of ``slowing`` or ``braking``.
 ``deceptive`` warns the driver, e.g. not to succumb to a wrong way.  
 ``finish`` ends the stage and pace notes.  
 
+## Contribute
+Feel free to submit your own transcriptions, following the requirements below:
+- record or find the replay of a single stage in DiRT Rally [2.0] from the *head, dash, or chase* camera using the *English speaking* co-driver 
+- write down the *complete* pace notes using the notation above in a text file, e.g. `Dirt-Rally-Monaco-Route-de-Turini.txt`
+- if needed, upload the replay and make it accessible (e.g. on YouTube)
+- send the text file along with the replay link to soong.construction.dev+gh@gmail.com
+
+Some further hints:
+- if needed, you can extend the system (but name & describe the extensions in the mail you send)
+- when transcribing from a video platform like YouTube, lowering the video playback speed can be a big help
+- fast "world record" runs through a stage make it particularly hard to get all the co-driver calls
+- try and use replays with a proper flow, i.e. no crashes or resets of the car
