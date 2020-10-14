@@ -21,8 +21,8 @@ Corners can be ``long`` or ``hlong`` (half long), some are `immediate`.
 > DR2 corners can be `short`, `long`, `verylong`, `extralong`, or `extraextralong`. Many are `unseen`, some `sudden`.
 
 They can tighten to a higher severity, ``>``, or open to a lesser one, ``<``. 
-> In DR2 it is also called if the road `opens` or `tightens` through a corner, or `continues` past a given way point.    
-> DR2 has corners where an `early` or `late` turn-in/apex is advised.
+> In DR2 it is also called if the road `opens` or `tightens` through a corner.    
+> DR2 will call out if a corner benefits from an `early` or `late` turn-in/apex, or if it `continues` past a given way point.
 
 ### Road geometry
 The road can be ``open`` or ``tight``, form ``dent``s or (``long``) ``cr``ests.  
