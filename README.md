@@ -4,10 +4,10 @@ This repository collects transcriptions of DiRT Rally [2.0] pace notes, contribu
 
 The pace note *system* can help rally beginners to better understand the co-driver calls. The pace note *transcriptions* enable co-op playing where one player drives the car and the other acts as the co-driver reading the notes: https://www.youtube.com/watch?v=BRZHE8-c-_c 
 
+The goal is to provide the game's pace notes as accurately as possible in a concise notation that people can read quickly and adapt to their needs or translate. In order to read the pace notes you should first take a look at the notation system below. 
+
 This project started after the release of the original DiRT Rally. It has been updated for DiRT Rally 2.0. 
 > This is how the differences in DR2 are given.
-
-The goal is to provide the game's pace notes as accurately as possible in a concise notation that people can read quickly and adapt to their needs or translate. In order to read the pace notes you should first take a look at the notation system below. 
 
 ## Understanding pace notes
 You should read this [blog entry](http://blog.codemasters.com/dirt/04/co-driver-calls-explained/) by the guy that reads the pace notes for the original DiRT Rally.
