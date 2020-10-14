@@ -42,7 +42,7 @@ Bad ``camber`` means a section or corner that requires a certain line and perhap
 
 ### Change in road characteristics
 The next section can go ``[up]`` or ``[down]``(hill), it ``[opens]`` and ``[narrows]``.  
-A `[water]` splash might require to switch on the windscreen wipers.  
+A `[water]` splash might require to switch on the windscreen wipers, while `[grid]`s can jerk the steering wheel.  
 The road can be covered by ``[ice]`` patches. For longer sections, calls are made when `[ice]-starts` or `-clears`.  
 > DR2 introduces `[snow]`. It also calls out the transition to `[gravel]`, `[tarmac]`, and `[cobble]`.  
 
