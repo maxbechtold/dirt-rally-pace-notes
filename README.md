@@ -28,10 +28,16 @@ They can tighten to a higher severity, ``>``, or open to a lesser one, ``<``.
 The road can be ``open`` or ``tight``, form ``dent``s or (``long``) ``cr``ests.  
 > DR2 calls out `dip`s instead of dents.  
 
-The latter are often followed by a ``jmp`` (jump), which might only happen at certain speeds: ``jmp?``.  
+Crests are often followed by a ``jmp`` (jump), which might only happen at certain speeds: ``jmp?``.  
 Crests/jumps can be particularly ``small`` or ``big``.  
 Bad ``camber`` means a section or corner that requires a certain line and perhaps less speed.  
 ``bmp`` denotes bumpy sections.  
+
+### Car placement
+Drivers can be advised to stay in the middle of the road or left or right of the middle: ``keepm, keepl, keepr``.  
+In corners, calls are made to ``keepin`` or even ``cut`` the corner.  
+``dontcut`` means to stay clear of the inside, ``keepout`` advises an outside line through a corner.  
+``line`` means taking a sequence of one or more corners straight. 
 
 ### Road boundaries
 ``gate``s, ``post``s, ``tunnel``s, ``bridge``s require the driver to stay off the edge of the road.   
@@ -44,13 +50,7 @@ Bad ``camber`` means a section or corner that requires a certain line and perhap
 The next section can go ``[up]`` or ``[down]``(hill), it ``[opens]`` and ``[narrows]``.  
 A `[water]` splash might require to switch on the windscreen wipers, while `[grid]`s can jerk the steering wheel.  
 The road can be covered by ``[ice]`` patches. For longer sections, calls are made when `[ice]-starts` or `-clears`.  
-> DR2 introduces `[snow]`. It also calls out the transition to `[gravel]`, `[tarmac]`, and `[cobble]`.  
-
-### Car placement
-Drivers can be advised to stay in the middle of the road or left or right of the middle: ``keepm, keepl, keepr``.  
-In corners, calls are made to ``keepin`` or even ``cut`` the corner.  
-``dontcut`` means to stay clear of the inside, ``keepout`` advises an outside line through a corner.  
-``line`` means taking a sequence of one or more corners straight. 
+> DR2 distinguishes `[snow]` from ice. It also calls out the transition to `[gravel]`, `[tarmac]`, and `[cobble]`.  
 
 ### Orientation
 ``Junc``tion, ``turn``, and ``cross``roads denote segments where the driver must take care not to take the wrong way.  
