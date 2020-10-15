@@ -1,17 +1,19 @@
 # dirt-rally-pace-notes
 
-This collects transcriptions of DiRT Rally pace notes, contributions welcome. These notes enable co-op playing where one player drives the car and the other acts as co-driver reading the notes.
+This repository collects transcriptions of DiRT Rally [2.0] pace notes, contributions welcome - [see below](#contribute).  
 
-Now that DiRT Rally 2.0 has long since been released, I'll try and update the system and pace notes.
+The pace note *system* can help rally beginners to better understand the co-driver calls. The pace note *transcriptions* enable co-op playing where one player drives the car and the other acts as the co-driver reading the notes: https://www.youtube.com/watch?v=BRZHE8-c-_c 
+
+The goal is to provide the game's pace notes as accurately as possible in a concise notation that people can read quickly and adapt to their needs or translate. In order to read the pace notes you should first take a look at the notation system below. 
+
+This project started after the release of the original DiRT Rally. It has been updated for DiRT Rally 2.0. 
 > This is how the differences in DR2 are given.
 
-My goal is to provide the game's pace notes as accurately as possible (given the manual process of writing the notes from replays) in a concise notation that people can read quickly and adapt to their needs or translate. 
-
 ## Understanding pace notes
-You should read this [blog entry](http://blog.codemasters.com/dirt/04/co-driver-calls-explained/) by the guy that reads the pace notes in the game.
+You should read this [blog entry](http://blog.codemasters.com/dirt/04/co-driver-calls-explained/) by the guy that reads the pace notes for the original DiRT Rally.
 
 ## System
-There doesn't seem to be an official notation, but [this one](http://www.automobilemag.com/news/a-beginners-guide-to-rally-pace-notes/) looks thorough to me and can be used to understand the following (simplified) notation.
+There doesn't seem to be an official notation, so [this one](http://www.automobilemag.com/news/a-beginners-guide-to-rally-pace-notes/) mostly inspired the following (simplified) notation.
 
 ### Corners
 In ascending severity: ``x6, x5, x4, x3, x2, x1, SQx, HPx, ACx`` where ``x`` is either ``l`` or ``r``.  
@@ -67,4 +69,15 @@ This can be combined with advice of ``slowing`` or ``braking``.
 ``finish`` ends the stage and pace notes.  
 > In DR2, the pace notes continue until the driver is to `stop`.
 
+## Contribute
+Feel free to submit your own transcriptions, following the requirements below:
+- record or find the replay of a single stage in DiRT Rally [2.0] from the *head, dash, or chase* camera using the *English speaking* co-driver 
+- write down the *complete* pace notes using the notation above in a text file, e.g. `Dirt-Rally-Monaco-Route-de-Turini.txt`
+- if needed, upload the replay and make it accessible (e.g. on YouTube)
+- send the text file along with the replay link to soong.construction.dev+gh@gmail.com
 
+Some further hints:
+- if needed, you can extend the system (but name & describe the extensions in the mail you send)
+- when transcribing from a video platform like YouTube, lowering the video playback speed can be a big help
+- fast "world record" runs through a stage make it particularly hard to get all the co-driver calls
+- try and use replays with a proper flow, i.e. no crashes or resets of the car
