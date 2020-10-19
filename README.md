@@ -13,7 +13,7 @@ This project started after the release of the original DiRT Rally. It has been u
 You should read this [blog entry](http://blog.codemasters.com/dirt/04/co-driver-calls-explained/) by the guy that reads the pace notes for the original DiRT Rally.
 
 ## System
-There doesn't seem to be an official notation, so [this one](https://www.automobilemag.com/news/a-beginners-guide-to-rally-pace-notes/) mostly inspired the following (simplified) notation.
+There doesn't seem to be an official notation, so [this one](https://www.automobilemag.com/news/a-beginners-guide-to-rally-pace-notes/?sm_id=organic:sm_id:tend:gen:20:na:scl_shr_icn:edtr:amm) mostly inspired the following (simplified) notation.
 
 ### Corners
 In ascending severity: ``x6, x5, x4, x3, x2, x1, SQx, HPx, ACx`` where ``x`` is either ``l`` or ``r``.  
