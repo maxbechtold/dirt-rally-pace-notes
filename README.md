@@ -84,3 +84,6 @@ Some further hints:
 - when transcribing from a video platform like YouTube, lowering the video playback speed can be a big help
 - fast "world record" runs through a stage make it particularly hard to get all the co-driver calls
 - try and use replays with a proper flow, i.e. no crashes or resets of the car
+
+## Remainder
+You might also be interested in https://github.com/soong-construction/dirt-rally-time-recorder.
