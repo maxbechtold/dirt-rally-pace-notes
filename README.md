@@ -39,6 +39,8 @@ Bad ``camber`` means a section or corner that requires a certain line and perhap
 ### Car placement
 Drivers can be advised to stay in the middle of the road or left or right of the middle: ``keepm, keepl, keepr``.  
 In corners, calls are made to ``keepin`` or even ``cut`` the corner.  
+> DR2 sometimes suggests a `small-cut` or a `big-cut`.
+
 ``dontcut`` means to stay clear of the inside, ``keepout`` advises an outside line through a corner.  
 ``line`` means taking a sequence of one or more corners straight. 
 
