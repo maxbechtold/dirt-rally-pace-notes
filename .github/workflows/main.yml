@@ -1,0 +1,23 @@
+name: CI
+
+# Controls when the action will run. 
+on:
+  push:
+    branches: '**'
+    tags: '**'
+  pull_request:
+    branches: '**'
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      
+    - name: Check markdown links
+      uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        use-verbose-mode: 'yes'
