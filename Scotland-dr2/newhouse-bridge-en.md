@@ -1,7 +1,6 @@
 ## Pacenotes
 
 ```txt
-
 start 6L<Xlg
 ! slowin turn 1R uphill <
 4R.Vlg>3.Xlg keepin >/smCr into
