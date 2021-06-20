@@ -14,11 +14,13 @@ You should read this [blog entry](http://blog.codemasters.com/dirt/04/co-driver-
 
 ## System
 <!-- markdown-link-check-disable-next-line -->
-There doesn't seem to be an official notation, so [this one](https://www.automobilemag.com/news/a-beginners-guide-to-rally-pace-notes/) mostly inspired the following (simplified) notation.
+There doesn't seem to be an official notation, so [this one](https://web.archive.org/web/20201021153035/https://www.automobilemag.com/news/a-beginners-guide-to-rally-pace-notes/) mostly inspired the following (simplified) notation.
 
 ### Corners
+The notation is (very close to) the "Six Fastest" system as explained [here.](https://www.rallynews.net/pattersonpacenotes/systemtypes.asp)  
+
 In ascending severity: ``x6, x5, x4, x3, x2, x1, SQx, HPx, ACx`` where ``x`` is either ``l`` or ``r``.  
-> In DR2 the numbers shifted, e.g. l5 would now be 6l: `flat, 6x, 5x, 4x, 3x, 2x, 1x, sqX, open-hpX, hpX`. To cover the same spectrum, a previous 6 is now called flat, and acute corners become hairpins.
+> DR2 puts the number first. Also, the severity changes. E.g., l5 would now be 6l: `flat, 6x, 5x, 4x, 3x, 2x, 1x, sqX, open-hpX, hpX`. To cover the same spectrum, a previous 6 is now called flat, and acute corners become hairpins.
 
 Corners can be ``long`` or ``hlong`` (half long), some are `immediate`.  
 > DR2 corners can be `short`, `long`, `verylong`, `extralong`, or `extraextralong`. Many are `unseen`, some `sudden`.
