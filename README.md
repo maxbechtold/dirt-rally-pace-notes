@@ -10,10 +10,9 @@ This project started after the release of the original DiRT Rally. It has been u
 > This is how the differences in DR2 are given.
 
 ## Understanding pace notes
-You should read this [blog entry](http://blog.codemasters.com/dirt/04/co-driver-calls-explained/) by the guy that reads the pace notes for the original DiRT Rally.
+You should read this [blog entry](https://web.archive.org/web/20190915224245/http://blog.codemasters.com/dirt/04/co-driver-calls-explained/) by the guy that reads the pace notes for the original DiRT Rally.
 
 ## System
-<!-- markdown-link-check-disable-next-line -->
 There doesn't seem to be an official notation, so [this one](https://web.archive.org/web/20201021153035/https://www.automobilemag.com/news/a-beginners-guide-to-rally-pace-notes/) mostly inspired the following (simplified) notation.
 
 ### Corners
